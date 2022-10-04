@@ -1,0 +1,79 @@
+.company-code-row,.company-name-row{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-column-gap:5%;
+}
+.company-code-label,.company-name-label,
+.company-name-value,.company-code-value,
+.stock-price,.stock-date,.stock-time,
+.avg-label,.min-label,.max-label,
+.avg-value,.min-value,.max-value{
+border: 1px solid black;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.company-code-label,.company-name-label,
+.company-name-value,.company-code-value,
+.from-label,.start-date,.end-date,.to-label,
+.avg-label,.min-label,.max-label,
+.avg-value,.min-value,.max-value
+{
+    margin: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stock-range-row{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin-bottom: 1%;
+}
+
+
+.stock-range-row input{
+    color-scheme:dark;
+}
+
+.stock-table-heading-row,.stock-detail-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stock-table-heading-row > .stock-price,.stock-table-heading-row > .stock-date,.stock-table-heading-row > .stock-time{
+    color: white;
+    border: 1px solid white;
+}
+
+.stock-table-heading-row{
+    background-color: #023B59;
+}
+
+.company-code-label,.company-name-label, .min-label, .max-label, .avg-label{
+    background-color: #023B59;
+    color: white;
+}
+
+.min-row,.max-row,.avg-row{
+    display: grid;
+    margin: 10px;
+    width:300px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.start-date-input-field, .end-date-input-field{
+    height: 100%;
+    color: white;
+    background-color: #023B59;
+}
+
+.empty-records{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+
+}

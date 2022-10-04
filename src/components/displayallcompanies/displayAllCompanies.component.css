@@ -1,0 +1,31 @@
+.all-comapnies-container{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.company-detail-row{
+    border: 1px solid #301008;
+    background-color: #DFDCE3;
+    padding:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.company-detail-row-heading{
+    border: 1px solid white;
+    background-color: #301008;
+    /* background-color: #482673; */
+    padding:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.table-heading{
+    color: white;
+}
+
+.delete-icon{
+    
+    cursor: pointer;
+    color: red;
+}

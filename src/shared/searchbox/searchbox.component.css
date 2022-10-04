@@ -1,0 +1,16 @@
+.search-input-field{
+    height: 100%;
+    background-color: white;
+    border-right: 1px solid black;
+    border-radius: 10px 0px 0px 10px;
+    color: black;
+}
+
+.search-button{
+    /* color: white; */
+    color: #023B59;
+    border-left: 1px solid black;
+    /* background-color:#301008; */
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
